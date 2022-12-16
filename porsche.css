@@ -1,0 +1,403 @@
+@font-face {
+    font-family: 'porschebold' ;
+    src: url(Fonts/PorsheBold.ttf);
+}
+@font-face {
+    font-family: 'porscheregular';
+    src: url(Fonts/PorsheRegular.ttf);
+}
+@font-face {
+    font-family: 'porschethin';
+    src: url(Fonts/Porshethin.ttf);
+}
+body{
+    margin: 0;
+   
+}
+.navbar{
+    font-family: 'porschethin';
+    font-size: 14px;
+    height:130px ;
+    width: 100%;
+    display: flex;
+    background-color:white;
+    position: relative;
+}
+.logo{
+    display: flex;
+    background-color: white;
+    margin-left: 180px;
+    position: absolute ;
+    height: 136px;
+    width: 135px;
+    align-items: center;
+    justify-content: center;
+    outline: rgb(205, 205, 205) solid 1px;
+    cursor: pointer;
+}
+.logo:hover{
+    transform: scale(1.5);
+    background-color: #d5001c;
+    
+}
+.logo img{
+    height: 72px;
+    width: 120px;
+ 
+    
+}
+.allcars{
+    display: flex;
+    margin-left: 350px;
+}
+    
+
+.cars{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 17px;
+    cursor: pointer;
+    
+}
+.cars:hover{
+    transform: scale(1.3);
+    color: #d5001c;
+}
+.cars h3{
+    margin-top: -20px;
+}
+.navright{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+transform: translate(350px,0);
+align-items: center;
+column-gap: 40px
+}
+.navright h2{
+    cursor: pointer;
+}
+.navright h2:hover{
+    color: #d5001c;
+}
+.seconddiv{
+    height: 703.78px;
+    width: 100%;
+    
+    position: relative;
+}
+.seconddiv img{
+    width: 1831px;
+    height: 719.78px;
+    cursor: pointer;
+    
+}
+.seconddiv h3{
+    position: absolute;
+    bottom: 0;
+    font-family: 'porschebold';
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    padding-left: 180px;
+    transition: 1s;
+}
+.seconddiv h3:hover{
+    color: #d5001c;
+}
+.seconddiv h3 span{
+    font-size: 60px;
+}
+.modelheading{
+    background-color: white;
+    margin-top: -20px;
+    font-family: 'porschethin';
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 180px;
+    
+}
+.model{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: -34px;
+  
+}
+
+.carmodel img{
+ 
+ 
+    max-width: 100%;
+    max-height: 100%;
+}
+.carmodel{
+position: relative;
+
+}
+.carmodel img{
+    filter: brightness(0.80);
+}
+.price{
+    position: absolute;
+    transform: translate(40px,-450px);
+    color: white;
+}
+.price h1{
+    font-family: 'porscheregular';
+    font-size: 40px;
+}
+
+.price h4{
+    font-family: 'porscheregular';
+    font-size: 20px;
+    transform: translate(0px,-30px);
+}
+.model-btn{
+  
+    position: absolute;
+   
+    transform:translate(40px,-80px)
+}
+.model-btn button:first-child{
+    font-family: 'porscheregular';
+margin-right: 4px;
+cursor: pointer;
+height: 50px;
+width: 163 px;
+padding: 13px 21px;
+background-color: white;
+font-size: 15px;
+border: 1px solid white;
+transition: 0.5s;
+}
+.model-btn button:first-child:hover{
+    background-color: #d5001c;
+    border-color: #d5001c;
+    color:white
+}
+.model-btn button:nth-child(2){
+    font-family: 'porscheregular';
+
+    cursor: pointer;
+    height: 50px;
+    width: 163 px;
+    padding: 13px 21px;
+    background-color: transparent;
+    font-size: 15px;
+    border:1px solid white;
+    color: white;
+    transition: 0.5s;
+}
+.model-btn button:nth-child(2):hover{
+    border-color: #d5001c;
+    color: #d5001c;
+}
+
+.findporschenearyouheading h1{
+
+font-family: 'porscheregular';
+font-size: 55px;
+margin-left: 150px;
+}
+.findporschenearyou{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+  
+  
+    margin-left: 180px;
+    margin-right: 180px;
+}
+.findporschenearyou img{
+    max-width: 100%;
+    max-height: 100%;
+    cursor: pointer;
+    transition: 1s;
+}
+.findporschenearyou img:hover{
+    background-color: #d5001c;
+    transform: scale(1.1);
+}
+.shoppingtoolsheading{
+    font-family: 'porscheregular';
+    font-size: 26px;
+    margin-left: 140px;
+    
+
+}
+.shoppingtools{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+ 
+   margin-left: 180px;
+   margin-right: 180px;
+
+   
+}
+.tools{
+    position: relative;
+    cursor: pointer;
+    height: 330px;
+}
+.tools h2{
+    padding-left: 40px;
+    font-family: 'porscheregular';
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    bottom: 0;
+}
+.tools h2:hover{
+    color: #d5001c;
+}
+
+.tools img{
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+}
+.tools:first-child{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    max-width: 100%;
+    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+.tools:nth-child(2){
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.tools:nth-child(3){
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.tools:nth-child(4){
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+
+
+
+.porschesocialheading{
+    font-family: 'porscheregular';
+    font-size: 25px;
+    margin-left: 134px;
+}
+.porschesocial{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    height: 678.53px;
+    width:1464px;
+    margin-left: 190px;
+    grid-gap: 10px;
+    
+}
+.porschesocial h1{
+    font-family: 'porscheregular';
+}
+.porschesocial img{
+    max-width:100%;
+max-height:100%;
+cursor: pointer;
+}
+.porschesocial img:hover{
+    filter: brightness(0.75);
+}
+.images:first-child{
+   
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}
+.images:nth-child(2){
+  grid-area: 1/3/2/4;
+}
+.images:nth-child(3){
+    grid-area: 1/4/1/5;
+}
+.images:nth-child(4){
+    grid-area: 1/5/3/7;
+}
+.images:nth-child(5){
+    grid-area: 3/1/4/2;
+}
+.images:nth-child(6){
+    grid-area: 3/2/4/3;
+}
+.images:nth-child(7){
+    grid-area: 2/3/4/5;
+}
+.images:nth-child(8){
+    grid-area: 3/5/4/6;
+}
+.images:nth-child(9){
+    grid-area: 3/6/4/7;
+}
+
+/*--------------discover---------------*/
+.discoverheading{
+font-family: 'porscheregular';
+font-size: 26px;
+margin-left: 130px;
+}
+.discovergrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-bottom: 90px;
+}
+
+.discovergrid img{
+    cursor: pointer;
+
+}
+.discovergrid img:hover{
+    filter: brightness(0.75);
+}
+.discovercolumn{
+    font-family: 'porscheregular';
+    color: black;
+    font-size: 17px;
+}
+.discovercolumn:hover{
+    color: #d5001c;
+}
+.discovercolumn p{
+    transform: translate(30px,-10px);
+}
+.hr.hr{
+    margin-left: 130px;
+    margin-right: 100px;
+}
+
+/*--------------footer-----------------*/
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 130px;
+}
+.footer h2{
+    font-family: 'porscheregular';
+    
+}
+.footer p{
+    font-family: 'porschethin';
+    cursor: pointer;
+}
+.footer p:hover
+{
+    color: #d5001c;
+}
+.copyright{
+    color: rgb(76, 66, 66);
+    font-family: 'porscheregular';
+    padding-top: 50px;
+    padding-left: 130px;
+margin-bottom: 100px;
+}
